@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C43B93216DF682006545D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43B92216DF682006545D7 /* AppDelegate.m */; };
+		F8C43B96216DF682006545D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43B95216DF682006545D7 /* ViewController.m */; };
+		F8C43B99216DF682006545D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C43B97216DF682006545D7 /* Main.storyboard */; };
+		F8C43B9B216DF683006545D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C43B9A216DF683006545D7 /* Assets.xcassets */; };
+		F8C43B9E216DF683006545D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C43B9C216DF683006545D7 /* LaunchScreen.storyboard */; };
+		F8C43BA1216DF683006545D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43BA0216DF683006545D7 /* main.m */; };
+		F8C43BAB216DF683006545D7 /* MGReachabilityExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43BAA216DF683006545D7 /* MGReachabilityExampleTests.m */; };
+		F8C43BB6216DF683006545D7 /* MGReachabilityExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43BB5216DF683006545D7 /* MGReachabilityExampleUITests.m */; };
+		F8C43BC8216E1157006545D7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43BC4216E1157006545D7 /* Reachability.m */; };
+		F8C43BC9216E1157006545D7 /* MGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C43BC6216E1157006545D7 /* MGReachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C43BA7216DF683006545D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C43B86216DF682006545D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C43B8D216DF682006545D7;
+			remoteInfo = MGReachabilityExample;
+		};
+		F8C43BB2216DF683006545D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C43B86216DF682006545D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C43B8D216DF682006545D7;
+			remoteInfo = MGReachabilityExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C43B8E216DF682006545D7 /* MGReachabilityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGReachabilityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C43B91216DF682006545D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8C43B92216DF682006545D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8C43B94216DF682006545D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8C43B95216DF682006545D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8C43B98216DF682006545D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C43B9A216DF683006545D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C43B9D216DF683006545D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8C43B9F216DF683006545D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C43BA0216DF683006545D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C43BA6216DF683006545D7 /* MGReachabilityExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGReachabilityExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C43BAA216DF683006545D7 /* MGReachabilityExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGReachabilityExampleTests.m; sourceTree = "<group>"; };
+		F8C43BAC216DF683006545D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C43BB1216DF683006545D7 /* MGReachabilityExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGReachabilityExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C43BB5216DF683006545D7 /* MGReachabilityExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGReachabilityExampleUITests.m; sourceTree = "<group>"; };
+		F8C43BB7216DF683006545D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C43BC4216E1157006545D7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F8C43BC5216E1157006545D7 /* MGReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGReachability.h; sourceTree = "<group>"; };
+		F8C43BC6216E1157006545D7 /* MGReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGReachability.m; sourceTree = "<group>"; };
+		F8C43BC7216E1157006545D7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C43B8B216DF682006545D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BA3216DF683006545D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BAE216DF683006545D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C43B85216DF682006545D7 = {
+			isa = PBXGroup;
+			children = (
+				F8C43B90216DF682006545D7 /* MGReachabilityExample */,
+				F8C43BA9216DF683006545D7 /* MGReachabilityExampleTests */,
+				F8C43BB4216DF683006545D7 /* MGReachabilityExampleUITests */,
+				F8C43B8F216DF682006545D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C43B8F216DF682006545D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C43B8E216DF682006545D7 /* MGReachabilityExample.app */,
+				F8C43BA6216DF683006545D7 /* MGReachabilityExampleTests.xctest */,
+				F8C43BB1216DF683006545D7 /* MGReachabilityExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C43B90216DF682006545D7 /* MGReachabilityExample */ = {
+			isa = PBXGroup;
+			children = (
+				F8C43BC3216E1157006545D7 /* MGReachability */,
+				F8C43B91216DF682006545D7 /* AppDelegate.h */,
+				F8C43B92216DF682006545D7 /* AppDelegate.m */,
+				F8C43B94216DF682006545D7 /* ViewController.h */,
+				F8C43B95216DF682006545D7 /* ViewController.m */,
+				F8C43B97216DF682006545D7 /* Main.storyboard */,
+				F8C43B9A216DF683006545D7 /* Assets.xcassets */,
+				F8C43B9C216DF683006545D7 /* LaunchScreen.storyboard */,
+				F8C43B9F216DF683006545D7 /* Info.plist */,
+				F8C43BA0216DF683006545D7 /* main.m */,
+			);
+			path = MGReachabilityExample;
+			sourceTree = "<group>";
+		};
+		F8C43BA9216DF683006545D7 /* MGReachabilityExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C43BAA216DF683006545D7 /* MGReachabilityExampleTests.m */,
+				F8C43BAC216DF683006545D7 /* Info.plist */,
+			);
+			path = MGReachabilityExampleTests;
+			sourceTree = "<group>";
+		};
+		F8C43BB4216DF683006545D7 /* MGReachabilityExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C43BB5216DF683006545D7 /* MGReachabilityExampleUITests.m */,
+				F8C43BB7216DF683006545D7 /* Info.plist */,
+			);
+			path = MGReachabilityExampleUITests;
+			sourceTree = "<group>";
+		};
+		F8C43BC3216E1157006545D7 /* MGReachability */ = {
+			isa = PBXGroup;
+			children = (
+				F8C43BC4216E1157006545D7 /* Reachability.m */,
+				F8C43BC5216E1157006545D7 /* MGReachability.h */,
+				F8C43BC6216E1157006545D7 /* MGReachability.m */,
+				F8C43BC7216E1157006545D7 /* Reachability.h */,
+			);
+			path = MGReachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C43B8D216DF682006545D7 /* MGReachabilityExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C43BBA216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExample" */;
+			buildPhases = (
+				F8C43B8A216DF682006545D7 /* Sources */,
+				F8C43B8B216DF682006545D7 /* Frameworks */,
+				F8C43B8C216DF682006545D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGReachabilityExample;
+			productName = MGReachabilityExample;
+			productReference = F8C43B8E216DF682006545D7 /* MGReachabilityExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C43BA5216DF683006545D7 /* MGReachabilityExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C43BBD216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExampleTests" */;
+			buildPhases = (
+				F8C43BA2216DF683006545D7 /* Sources */,
+				F8C43BA3216DF683006545D7 /* Frameworks */,
+				F8C43BA4216DF683006545D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C43BA8216DF683006545D7 /* PBXTargetDependency */,
+			);
+			name = MGReachabilityExampleTests;
+			productName = MGReachabilityExampleTests;
+			productReference = F8C43BA6216DF683006545D7 /* MGReachabilityExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8C43BB0216DF683006545D7 /* MGReachabilityExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C43BC0216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExampleUITests" */;
+			buildPhases = (
+				F8C43BAD216DF683006545D7 /* Sources */,
+				F8C43BAE216DF683006545D7 /* Frameworks */,
+				F8C43BAF216DF683006545D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C43BB3216DF683006545D7 /* PBXTargetDependency */,
+			);
+			name = MGReachabilityExampleUITests;
+			productName = MGReachabilityExampleUITests;
+			productReference = F8C43BB1216DF683006545D7 /* MGReachabilityExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C43B86216DF682006545D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = maling;
+				TargetAttributes = {
+					F8C43B8D216DF682006545D7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F8C43BA5216DF683006545D7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F8C43B8D216DF682006545D7;
+					};
+					F8C43BB0216DF683006545D7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F8C43B8D216DF682006545D7;
+					};
+				};
+			};
+			buildConfigurationList = F8C43B89216DF682006545D7 /* Build configuration list for PBXProject "MGReachabilityExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C43B85216DF682006545D7;
+			productRefGroup = F8C43B8F216DF682006545D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C43B8D216DF682006545D7 /* MGReachabilityExample */,
+				F8C43BA5216DF683006545D7 /* MGReachabilityExampleTests */,
+				F8C43BB0216DF683006545D7 /* MGReachabilityExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C43B8C216DF682006545D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C43B9E216DF683006545D7 /* LaunchScreen.storyboard in Resources */,
+				F8C43B9B216DF683006545D7 /* Assets.xcassets in Resources */,
+				F8C43B99216DF682006545D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BA4216DF683006545D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BAF216DF683006545D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C43B8A216DF682006545D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C43B96216DF682006545D7 /* ViewController.m in Sources */,
+				F8C43BC9216E1157006545D7 /* MGReachability.m in Sources */,
+				F8C43BA1216DF683006545D7 /* main.m in Sources */,
+				F8C43BC8216E1157006545D7 /* Reachability.m in Sources */,
+				F8C43B93216DF682006545D7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BA2216DF683006545D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C43BAB216DF683006545D7 /* MGReachabilityExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C43BAD216DF683006545D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C43BB6216DF683006545D7 /* MGReachabilityExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C43BA8216DF683006545D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C43B8D216DF682006545D7 /* MGReachabilityExample */;
+			targetProxy = F8C43BA7216DF683006545D7 /* PBXContainerItemProxy */;
+		};
+		F8C43BB3216DF683006545D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C43B8D216DF682006545D7 /* MGReachabilityExample */;
+			targetProxy = F8C43BB2216DF683006545D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8C43B97216DF682006545D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C43B98216DF682006545D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C43B9C216DF683006545D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C43B9D216DF683006545D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C43BB8216DF683006545D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C43BB9216DF683006545D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C43BBB216DF683006545D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGReachabilityExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C43BBC216DF683006545D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGReachabilityExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8C43BBE216DF683006545D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGReachabilityExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGReachabilityExample.app/MGReachabilityExample";
+			};
+			name = Debug;
+		};
+		F8C43BBF216DF683006545D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGReachabilityExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGReachabilityExample.app/MGReachabilityExample";
+			};
+			name = Release;
+		};
+		F8C43BC1216DF683006545D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGReachabilityExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGReachabilityExample;
+			};
+			name = Debug;
+		};
+		F8C43BC2216DF683006545D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MGReachabilityExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGReachabilityExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGReachabilityExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C43B89216DF682006545D7 /* Build configuration list for PBXProject "MGReachabilityExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C43BB8216DF683006545D7 /* Debug */,
+				F8C43BB9216DF683006545D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C43BBA216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C43BBB216DF683006545D7 /* Debug */,
+				F8C43BBC216DF683006545D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C43BBD216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C43BBE216DF683006545D7 /* Debug */,
+				F8C43BBF216DF683006545D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C43BC0216DF683006545D7 /* Build configuration list for PBXNativeTarget "MGReachabilityExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C43BC1216DF683006545D7 /* Debug */,
+				F8C43BC2216DF683006545D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C43B86216DF682006545D7 /* Project object */;
+}
