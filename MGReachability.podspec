@@ -7,9 +7,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Network to determine."
 
-
   s.homepage     = "https://github.com/Maling1255/MGReachability"
-
 
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -22,10 +20,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Maling1255/MGReachability.git", :tag => "0.0.1" }
 
+  s.source_files  = "MGReachability/*.{h,m}"
 
-  s.source_files  = "MGReachability"
-
-  s.public_header_files = "MGReachability/MGReachability.h",
+  #s.public_header_files = "MGReachability/MGReachability.h",
 
 
   s.requires_arc = true
