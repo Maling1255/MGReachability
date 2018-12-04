@@ -142,10 +142,10 @@
 		F8C43BC3216E1157006545D7 /* MGReachability */ = {
 			isa = PBXGroup;
 			children = (
-				F8C43BC4216E1157006545D7 /* Reachability.m */,
 				F8C43BC5216E1157006545D7 /* MGReachability.h */,
 				F8C43BC6216E1157006545D7 /* MGReachability.m */,
 				F8C43BC7216E1157006545D7 /* Reachability.h */,
+				F8C43BC4216E1157006545D7 /* Reachability.m */,
 			);
 			path = MGReachability;
 			sourceTree = "<group>";

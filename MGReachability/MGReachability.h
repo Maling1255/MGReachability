@@ -3,15 +3,15 @@
 #import <Foundation/Foundation.h>
 
 
-typedef NS_ENUM(NSUInteger, AWNetworkStatusType) {
+typedef NS_ENUM(NSUInteger, MGNetworkStatusType) {
     /** 未知网络*/
-    AWNetworkStatusUnknown,
+    MGNetworkStatusUnknown,
     /** 无网络*/
-    AWNetworkStatusNotReachable,
+    MGNetworkStatusNotReachable,
     /** 手机网络*/
-    AWNetworkStatusReachableViaWWAN,
+    MGNetworkStatusReachableViaWWAN,
     /** WIFI网络*/
-    AWNetworkStatusReachableViaWiFi
+    MGNetworkStatusReachableViaWiFi
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 获取网络状态
  */
-+ (AWNetworkStatusType)networktype;
++ (MGNetworkStatusType)networktype;
 
 /**
  * 获取具体的网络信号 4G 3G 2G GPRS

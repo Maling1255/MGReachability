@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MGReachability.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSLog(@"JJJJJJJJJJ  %@", [MGReachability networkStatusIdentier]);
+    
 }
 
 

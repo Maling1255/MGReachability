@@ -8,9 +8,9 @@
 
 @implementation MGReachability
 
-+ (AWNetworkStatusType)networktype
++ (MGNetworkStatusType)networktype
 {
-    AWNetworkStatusType networkStatus;
+    MGNetworkStatusType networkStatus;
     
     Reachability *reachability   = [Reachability reachabilityWithHostName:@"www.apple.com"];
     
@@ -18,19 +18,19 @@
     
     switch (internetStatus) {
         case ReachableViaWiFi:
-            networkStatus = AWNetworkStatusReachableViaWiFi;
+            networkStatus = MGNetworkStatusReachableViaWiFi;
             break;
             
         case ReachableViaWWAN:
-            networkStatus = AWNetworkStatusReachableViaWWAN;
+            networkStatus = MGNetworkStatusReachableViaWWAN;
             
             break;
             
         case NotReachable:
-            networkStatus = AWNetworkStatusUnknown;
+            networkStatus = MGNetworkStatusUnknown;
             
         default:
-            networkStatus = AWNetworkStatusUnknown;
+            networkStatus = MGNetworkStatusUnknown;
             break;
     }
     
