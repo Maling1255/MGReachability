@@ -37,7 +37,6 @@
     return networkStatus;
 }
 
-
 + (NSString *)networkStatusIdentier
 {
     NSString  *networkStatus;
@@ -64,10 +63,8 @@
             break;
     }
     
-    return networkStatus;
-    
+    return networkStatus;    
 }
-
 
 + (NSString *)getNetType
 {

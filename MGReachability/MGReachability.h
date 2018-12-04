@@ -2,7 +2,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 typedef NS_ENUM(NSUInteger, MGNetworkStatusType) {
     /** 未知网络*/
     MGNetworkStatusUnknown,
