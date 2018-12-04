@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "MGReachability"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Network to determine."
 
   s.homepage     = "https://github.com/Maling1255/MGReachability"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/Maling1255/MGReachability.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/Maling1255/MGReachability.git", :tag => s.version }
 
   s.source_files  = "MGReachability/*.{h,m}"
 
